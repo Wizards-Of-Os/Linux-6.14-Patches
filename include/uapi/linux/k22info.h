@@ -1,3 +1,6 @@
+#include <unistd.h>
+#include <sys/types.h>
+
 struct k22info {
     char comm[64];                  /* name of the executable */
     pid_t pid;                      /* process ID */
